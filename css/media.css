@@ -1,0 +1,655 @@
+
+
+
+
+@media (min-width: 1600px) {
+    .banner-dot-image{
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 200px;
+    }
+
+    .hero-img {
+        top: 50px;
+        bottom: 100px;
+    }
+  }
+
+@media (min-width: 1368px) {
+
+
+    .banner-block{
+       padding-top: 185px;
+       padding-bottom: 250px;
+    }
+
+    /* .banner-dot-image{
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: -25px;
+    } */
+
+    .banner-dot-image img{
+        width: 100%;
+        height: auto;
+     }
+
+    .banner-img{
+        max-width: 50vw;
+        top: 55px;
+    }
+
+    .hero-img {
+        position: absolute;
+        top: 20px;
+        bottom: 100px;
+        right: 0px;
+        max-width: 750px;
+    }
+
+    /* .banner-text{
+        padding-top: 30px;
+    } */
+
+    .hero-text p {
+        font-size: 30px;
+        max-width: 883px;
+    }
+
+    .hero-text .demo-btn{
+        min-width: 335px;
+    }
+
+    .banner-img img {
+        border-top-left-radius: 300px;
+        border-bottom-left-radius: 300px;
+    }
+
+    .items .content {
+        max-width: 363px;
+        min-height: 493px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-us{
+        height: auto;
+        padding: 60px 0px 60px 0px;
+        position: relative;
+        z-index: 3;
+        background-image: url(../img/about-us-bg.png);
+        background-repeat: no-repeat;
+        background-position: 100% auto; 
+        background-size: cover;
+    }
+
+    .about-us .title {
+        margin-bottom: 50px;
+        margin-top: 70px;
+    }
+
+    .about-us .title h2{
+        font-size: 35px;
+    }
+
+    .about-us__description{
+        margin-bottom: -180px;
+        padding-bottom: 70px;
+        padding-left: 50px;
+    }
+
+    .why-we-choose {
+        padding-bottom: 20px;
+    }
+
+    .why-we-choose__heading{
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 1200px){
+    .menu ul a {
+        font-size: 13px;
+    }
+    .menu {
+        margin-left: 20px;
+    }
+    .logo svg {
+        max-width: 56px;
+    }
+    .demo {
+        font-size: 10px;
+        padding: 8px 14px;
+    }
+    .loginwith a {
+        width: 70px;
+        height: 50px;
+    }
+
+    .price-text {
+        padding-left: 0;
+    }
+    .banner-text h1 {
+        font-size: 28px;
+    }
+
+    .about-us{
+        height: 100vh;
+    }
+
+    .about-us__description {
+        max-width: 90vw;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+   
+    
+    .banner-text h1 {
+        font-size: 21px;
+    }
+    .banner-list li {
+        font-size: 20px;
+    }
+    .banner-list {
+        margin-top: 30px;
+    }
+   
+    .form-control {
+        height: 44px;
+    }
+    .select2-container .select2-selection--single .select2-selection__rendered {
+        height: 45px;
+    }
+    span.select2.select2-container.select2-container--default {
+        height: 44px;
+    }
+    .btn-style {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    
+    main .title {
+        margin-bottom: 20px;
+    }
+
+    .feedback>span {
+        font-size: 12px;
+        margin: 20px 0px 20px 0px;
+    }
+    /* .title h2 {
+        font-size: 22px;
+    } */
+    .social h3 {
+        font-size: 16px;
+    }
+    .contact-info {
+        margin-top: 55px;
+    }
+    .map {
+        margin-top: 30px;
+    }
+    .contact-info a {
+        font-size: 14px;
+    }
+    .contact-info .phone a {
+        padding-bottom: 6px;
+    }
+    .demo {
+        display: none;
+    }
+    .menu ul a {
+        font-size: 10px;
+    }
+    .logo svg {
+        max-width: 50px;
+        height: 60px;
+    }
+    .lang a {
+        font-size: 12px;
+    }
+
+    .banner-text{
+        padding-left: 35px;
+    }
+
+    .banner-img{
+        display: none;
+    }
+
+    
+    .about-us{
+        height: 100vh;
+    }
+
+    .about-us__description {
+        max-width: 85vw;
+    }
+
+    .why-we-choose {
+        padding-top: 140px;
+    }
+
+    .offer_item {
+        justify-content: center!important;
+        align-items: stretch;
+    }
+
+    .offer_item .icon {
+        width: 144px;
+        height: 144px;
+    }
+
+
+    .offer_item-content {
+        padding-top: 15px;
+    }
+
+    .comment-info__sign {
+        left: -70px;
+    }
+
+    .circle__content p{
+        font-size: 14px;
+    }
+    
+}
+
+
+
+
+@media (max-width: 767px) {
+    .menu ul li {
+        position: absolute;
+        top: 0;
+        left: 0;
+        white-space: nowrap;
+        visibility: hidden;
+        opacity: 0;
+        transition: all .4s;
+    }
+
+    .menu {
+        position: relative;
+        height: 35px;
+        width: 90px;
+        margin-left: 0px;
+    }
+
+    .menu ul li.current {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .lang {
+        margin-left: 10px;
+    }
+    span.select2.select2-container.select2-container--default {
+        width: 86px !important;
+    }
+    .select2-container {
+        z-index: 10;
+    }
+    .menu ul {
+        /* display: none; */
+    }
+    .demo {
+        display: block;
+    }
+    .header-top {
+        width: 100%;
+        justify-content: space-between;
+    }
+    header {
+        padding: 9px 0;
+    }
+    .banner .banner-parallax {
+    }
+    .banner {
+        margin-top: 110px;
+        padding-bottom: 80px;
+    }
+    .banner-list li {
+        font-size: 15px;
+    }
+    .banner-list {
+        margin-top: 20px;
+        padding-left: 16px;
+    }
+
+    
+    
+    main .title {
+        width: 100%;
+    }
+    .contact {
+        margin-top: 60px;
+    }
+    .contact-info {
+        margin-top: 20px;
+    }
+    footer .col-md-7 {
+        padding: 0;
+    }
+
+    .banner {
+        margin-top: 50px;
+        padding-bottom: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .banner-block{
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .banner-dot-image{
+        display: none;
+    }
+
+    .banner-img{
+        display: none;
+    }
+
+    .demo-btn{
+        min-width: 100%;
+    }
+
+
+    .items .content{
+        max-width: 100%;
+    }
+
+    .why-we-choose {
+        padding-top: 50px;
+    }
+
+    .why-we-choose__heading{
+        margin-top: 25px;
+    }
+
+    .offer_item{
+        flex-direction: column;
+    }
+
+    .offer_item-content{
+        text-align: center;
+        margin-top: 30px;
+
+    }
+
+    .offer_item .icon {
+        width: 120px;
+        height: 120px;
+    }
+
+    .offer_item .icon svg {
+        width: 60px;
+        max-height: 65px;
+        fill: #fff;
+    }
+
+    .comment-info__sign{
+        display: none;
+    }
+
+    .comment-text {
+        padding: 0;
+        margin-top: 40px;
+    }
+
+
+    .comment-info__details {
+        width: 626px;
+        border-radius: 10px;
+        padding: 22px 22px;
+        max-width: 100%;
+    }
+
+    .circle__content{
+        padding: 4rem 3rem;
+    }
+
+    .circle__content p{
+        font-size: 13px;
+    }
+
+    .circle__content .user-info .user-name {
+        font-size: 19px;
+    }
+
+    .circle__content .user-info .user-job {
+        font-size: 16px;
+    }
+    
+
+    .about-us {
+        height: 100%;
+        padding: 60px 0px 0 0px;
+    }
+
+    .about-us__description {
+        max-width: 80vw;
+    }
+
+}
+
+
+
+
+@media (max-width: 575px) {
+    
+    .container {
+        max-width: calc(100% - 30px);
+    }
+    
+    /* .title h2 {
+        font-size: 19px;
+    } */
+   
+    footer {
+        padding: 40px 0px 20px 0px;
+    }
+    .contact {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+    .social {
+        display: block;
+        text-align: center;
+    }
+    .social h3 {
+        margin-bottom: 14px;
+    }
+    .allreserved {
+        position: static;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .allreserved p {
+        font-size: 14px;
+    }
+    footer {
+        padding-bottom: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .contact {
+        margin-top: 40px;
+    }
+    .banner-text h1 {
+        font-size: 28px;
+    }
+    .banner {
+        margin-top: 50px;
+        padding-bottom: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .banner-block{
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .banner-list li {
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+    .banner-list {
+        margin-top: 10px;
+    }
+
+    .banner-dot-image{
+        display: none;
+    }
+
+    .banner-text a {
+        min-width: 100%;
+    }
+
+    .demo-btn{
+        min-width: 100%;
+    }
+
+    .why-we-choose {
+        padding-top: 10%;
+        padding-bottom: 10px;
+    }
+
+    .offer_item{
+        flex-direction: column;
+    }
+
+    .offer_item-content{
+        text-align: center;
+        margin-top: 30px;
+
+    }
+
+    .offer_item .icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .comment-text {
+        padding: 0;
+        margin-top: 40px;
+    }
+
+
+    .comment-info__sign{
+        display: none;
+    }
+
+    .comment-info__details {
+        width: 626px;
+        border-radius: 10px;
+        padding: 22px 22px;
+        max-width: 100%;
+    }
+    
+}
+
+
+@media (max-width: 480px){
+    .why-we-choose {
+        padding-top: 10%;
+    }
+
+
+    .about-us {
+        height: auto;
+        padding: 60px 0px 0 0px;
+    }
+}
+
+@media (max-width: 370px) {
+    .menu {
+        display: none;
+    }
+   
+
+    .banner-dot-image{
+        display: none;
+    }
+
+
+    .demo-btn{
+        min-width: 100%;
+    }
+
+    /* .title h2 {
+        font-size: 17px;
+    } */
+
+    .about-us .title h2{
+        font-size: 28px;
+    }
+
+    .why-we-choose {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .offer_item{
+        flex-direction: column;
+    }
+
+    .offer_item-content{
+        text-align: center;
+        margin-top: 30px;
+
+    }
+
+    .offer_item .icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .comment-text {
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .comment-text .buttons {
+        justify-content: center;
+    }
+
+    .comment-info__sign{
+        display: none;
+    }
+
+    .comment-info__details {
+        width: 626px;
+        border-radius: 10px;
+        padding: 22px 22px;
+        max-width: 100%;
+    }
+    
+}
+
+/*Media Style for Circle Block*/
+
+@media (max-width: 570px) {
+    /* .circle__content {
+      font-size: 2em;
+    } */
+
+    .circle__content p{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    
+  }
+  
+  /* @media (min-width: 768px) {
+    .circle__content {
+      font-size: 4em;
+    }
+  } */
